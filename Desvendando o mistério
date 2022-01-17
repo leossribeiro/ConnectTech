@@ -1,0 +1,42 @@
+Desvendando o mistério:
+
+Efetuei um cat inicio na qual pediu para eu navegar para o diretorio misterio
+cd misterio
+
+Seguindo a dica do arquivo início filtrei o arquivo cena_do_crime pela palavra PISTAS com o comando:
+cat cena-do-crime | grep PISTAS
+
+Comando esse que me retornou as seguintes pistas:
+
+PISTA: A filmagem do caixa eletrônico está embaçada, mas mostra que o suspeito é um homem alto, pelo menos 1,83m de altura.
+PISTA: Encontramos uma carteira que provavelmente pertence ao assassino. Nenhum documento de identidade, apenas alguns trocados e carteirinhas dos grupos AAA, Delta SkyMiles, biblioteca e do Museu de História do Bash. Impossível rastrear as carteirinhas, e nenhuma delas possui nome, por algum motivo.
+PISTA: Interrogamos o garçom da cafeteria próxima à cena. Ele disse que uma mulher saiu da cafeteria logo antes de ouvirem os tiros. O nome dela era Annabel, tinha cabelo loiro curto e um sotaque da Nova Zelândia.
+
+
+
+Verifiquei os arquivos AAA, Delta SkyMiles, biblioteca e do Museu 
+Comparando -os e destacando os nomes que continha nos três arquivos ao mesmo tempo com o comando:
+vimdiff AAA Delta SkyMiles biblioteca  Museu_da_Historia_do_Bash
+Comando esse que me retornou 
+
+Yu Sakaguchi
+Mohamed Koo
+
+Verifiquei no arquivo pessoas por `Annabel` com o comando:
+cat pessoas | grep  Annabel
+Na qual obtive como retorno:
+Annabel Sun	F	26	Vila Hart, linha 40
+Oluwasegun Annabel	M	37	Rua Mattapan, linha 173
+Annabel Church	F	38	Vila Buckingham, linha 179
+Annabel Fuglsang	M	40	Rua Haley, linha 176
+
+Deixando só os nomes femininos sobrou:
+Annabel Sun	F	26	Vila Hart, linha 40
+Annabel Church	F	38	Vila Buckingham, linha 179 -> também participa do AAA
+
+Entrando dentro do diretorio assosiassões efetuei os seguintes comando abaixo:
+grep -rin "Yu Sakaguchi" - > percebi que era feminino
+grep -rin "Mohamed Koo" - > masculino e culpado!
+
+Por eliminação das dicas dadas no início desscobri que o Mohamed Koo era o culpado!
+
