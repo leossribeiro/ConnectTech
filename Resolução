@@ -1,0 +1,192 @@
+
+
+
+    Assassino: JEREMY BOWERS
+	31828:PLACA L3375A9
+	MARCA: HONDA
+	COR: AZUL
+	PROPRIETÁRIO: JEREMY BOWERS
+	ALTURA: 1,86 M
+	PESO: 92,5 KG
+	PESSOAS:JEREMY BOWERS   M       34      TRAVESSA DUNSTABLE, LINHA 284
+	LEIA A ENTREVISTA #9620713 
+	A CASA PARECE ESTAR VAZIA. NÃO HOUVE RESPOSTA QUANDO BATEMOS NA PORTA.
+    APÓS QUESTIONAR OS VIZINHOS, PARECE QUE O MORADOR VIAJOU RECENTEMENTE.
+    SERÁ CONSIDERADO UM SUSPEITO ATÉ QUE SE PROVE O CONTRÁRIO, MAS TERÍAMOS QUE ELIMINAR OUTROS SUSPEITOS PARA TER CERTEZA.
+	 
+	AAA:JEREMY BOWERS
+	BIBLIOTECA_DA_CIDADE:JEREMY BOWERS
+	DELTA_SKYMILES:JEREMY BOWERS
+	MUSEU_DA_HIST├│RIA_DO_BASH:JEREMY BOWERS
+______________________________________________________________________________________________
+
+Histórico
+
+
+   91  cd assassinato-na-linha-de-comando
+   92  cat cena-do-crime
+   93  grep "PISTA"
+   94  grep PISTA cena-do-crime
+   95  grep -i PISTA
+   96  grep -i PISTA cena-do-crime
+   97  history
+   98  cd assassinato-na-linha-de-comando/
+   99  ls
+  100  cat README.md
+  101  history
+  102  clear
+  103  history
+  104  cat inicio
+  105  grep "Pista"
+  106  clear
+  107  cat inicio
+  108  cd misterio/
+  109  cat cena-do-crime
+  110  grep PISTAS cena-do-crime
+  111  grep PISTA cena-do-crime
+  112  cat pessoas
+  113  grep Annabel pessoas
+  114  cd ruas
+  115  cat 40
+  116  cat linha 40
+  117  cat Vila_Hart
+  118  cd assassinato-na-linha-de-comando/
+  119  cat README.md
+  120  cd entrevistas
+  121  ls
+  122  cd..
+  123  cd ..
+  124  cat AAA
+  125  cd associacoes/
+  126  cat AAA
+  127  cd ..
+  128  cd ruas
+  129  cat Vila_Hart
+  130  head -n 40
+  131  cat automoveis
+  132  grep 1,83 automoveis
+  133  clear
+  134  cd ruas
+  135  cat Vila_Hart
+  136  cd ..
+  137  clear
+  138  cd ruas
+  139  cat Vila_Hart
+  140  sed -n '40' Vila_Hart
+  141  head -n 40 Vila_Hart
+  142  cat Vila_Buckingham
+  143  head -n 179 Vila_Buckingham
+  144  cd ..
+  145  ls
+  146  cd entrevistas
+  147  cat entrevista-47246024
+  148  cat entrevista-699607
+  149  cd ..
+  150  ls
+  151  cd automoveis
+  152  cat automoveis
+  153  grep L337 automoveis
+  154  grep L337P89 automoveis
+  155  grep - A 5 L337 automoveis
+  156  grep -A 5 automoveis
+  157  cat automoveis
+  158  head -n 1671 automoveis
+  159  head -n 15930 automoveis
+  160  head -n 17751
+  161  head -n 17751 automoveis
+  162  head -n 220890 automoveis
+  163  head -n 22090 automoveis
+  164  head -n 23833 automoveis
+  165  head -n 24841 automoveis
+  166  head -n 31834 automoveis
+  167  head -n 34320 automoveis
+  168  cd associacoes/
+  169  head AAA
+  170  head Delta_SkyMiles
+  171  head Biblioteca_da_Cidade
+  172  head Museu_da_Hist├│ria_do_Bash
+  173  grep Jeremy Bowers
+  174  head Associa├º├úo_de_ExAlunos
+  175  cd ..
+  176  head pessoas
+  177  cat pessoas
+  178  grep Joe Germuska pessoas
+  179  grep Jeremy Bowers pessoas
+  180  grep Jacqui Maher pessoas
+  181  cd ruas
+  182  cat Rua_Plainfield
+  183  grep -n 275 Rua_Plainfield
+  184  cat -n 275 Rua_Plainfield
+  185  grep -n 275 Rua_Plainfield
+  186  grep 275 Rua_Plainfield
+  187  head -n 275 Rua_Plainfield
+  188  head -n 284 Travessa_Dunstable
+  189  head -n 224 Travessa_Andover
+  190  cd ..
+  191  cd entrevistas/
+  192  cat entrevista-29741223
+  193  cat entrevista-9620713
+  194  cat entrevista-904020
+  195  cd ..
+  196  grep Jeremy Bowers *
+  197  cd associacoes/
+  198  grep Jeremy Bowers *
+  199  grep Joe Germuska *
+  200  grep jacqui Maher *
+  201  grep Jacqui *
+  202  greo Bowers *
+  203  grep Bowers *
+  204  grep Germuska *
+  205  history
+
+
+
+___________________________________________________________________________________________
+
+$ grep PISTA cena-do-crime
+PISTA: A filmagem do caixa eletrônico está embaçada, mas mostra que o suspeito é um homem alto, pelo menos 1,83m de altura.
+
+PISTA: Encontramos uma carteira que provavelmente pertence ao assassino. Nenhum documento de identidade, apenas alguns trocados e carteirinhas dos grupos AAA, Delta SkyMiles, biblioteca e do Museu de História do Bash. Impossível rastrear as carteirinhas, e nenhuma delas possui nome, por algum motivo.
+
+PISTA: Interrogamos o garçom da cafeteria próxima à cena. Ele disse que uma mulher saiu da cafeteria logo antes de ouvirem os tiros. O nome dela era Annabel, tinha cabelo loiro curto e um sotaque da Nova Zelândia.
+
+
+Annabel Sun             F       26      Vila Hart, linha 40
+      LEIA A ENTREVISTA #47246024
+	  A Srta. Sun tem cabelo castanho e não é da Nova Zelândia. Não é a testemunha da cafeteria.
+
+Annabel Church          F       38      Vila Buckingham, linha 179
+       LEIA A ENTREVISTA #699607
+	   No entanto, ela reportou que viu um carro fugindo da cena do crime. Descreveu como um Honda azul, com placa que começa com "L337" e termina com "9".
+
+867:Placa L337ZR9  Não Bateu
+2169:Placa L337P89 não bateu 
+5459:Placa L337GX9 não bateu 
+13565:Placa L337GB9 não bateu 
+13656:Placa L337OI9 não bateu
+15924:Placa L337X19 não bateu
+22084:Placa L3373U9 não bateu
+
+24835:Placa L337DV9
+	Marca: Honda
+	Cor: Azul
+	Proprietário: Joe Germuska
+	Altura: 1,88 m
+	Peso: 74,4 kg
+	pessoas:Joe Germuska    M       65      Rua Plainfield, linha 275
+	LEIA A ENTREVISTA #29741223
+	Não é suspeito
+
+34313:Placa L337WR9
+	Marca: Honda
+	Cor: Azul
+	Proprietário: Jacqui Maher
+	Altura: 1,88 m
+	Peso: 59,0 kg
+	pessoas:Jacqui Maher    F       40      Travessa Andover, linha 224
+    LEIA A ENTREVISTA #904020
+ Maher is not considered a suspect.  Video evidence confirms that she was away at a professional soccer game on the morning in question, even though it was a workday.
+    AAA:Jacqui Maher
+	Biblioteca_da_Cidade:Jacqui Maher
+	Delta_SkyMiles:Jacqui Maher
+	Museu_da_Hist├│ria_do_Bash:Jacqui Maher
